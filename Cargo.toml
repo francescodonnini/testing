@@ -1,0 +1,11 @@
+[package]
+name = "testing"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+rpassword = "7"     # lettura password senza echo
+pwhash = "1"        # hash SHA-512 crypt, come openssl passwd -6
+tempfile = "3"      # file temporaneo cancellato automaticamente
