@@ -8,8 +8,6 @@ qemu-img create -f qcow2 -F qcow2 \
   /var/lib/libvirt/images/$TO.qcow2 60G
 ```
 
-qemu-img create -f qcow2 -F qcow2 -b /var/lib/libvirt/images/focal-server-cloudimg-amd64.img /var/lib/libvirt/images/saubuntu20.04.img 60G
-
 ## Setup
 ```shell
 cloud-init status wait
